@@ -1,0 +1,101 @@
+h1 {
+    color: red;
+}
+/*
+.className -- how you could target a class in CSS
+*/
+.names {
+    color: blue;
+}
+
+/*
+#idName -- how you could target an id in CSS
+*/
+#me {
+    color: maroon;
+}
+
+ul {
+    color: purple;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+/*
+cssSelector > secondCssSelector
+we're saying any direct child of the cssSelector with the second selector
+It is more specific than any tag before by itself
+*/
+
+ul li {
+    font-size: 20px;
+    color: orange;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: darkgrey; /* Add a grey background color */
+    padding: 12px; 
+}
+/*
+ul > li:nth-child(2) {
+    font-size: 40px;
+    color: mediumseagreen;
+}
+*/
+li {
+    color:brown;
+}
+
+/* Give the card that card pop-out effect
+*/
+.card {
+    width: 17.01rem; /* adjusts the width of the card itself */
+    background-color: #b31015;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3;
+    border-radius: 5px 5px 5px 5px; /* add rounded corners to the cards */
+}
+
+/* Give the card a darker shade when mouse hovers over it
+*/
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 5px 5px;  /* adds rounded borders to all corners of the photo */
+  }
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+}
+
+/*
+The alert message information
+*/
+
+.alert {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*
+The close button
+*/
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+.closebtn:hover {
+    color: black;  /* changes the color of the x to black when mouse hovers over it */
+}

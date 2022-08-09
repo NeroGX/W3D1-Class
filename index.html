@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  <!-- Head contains the metadata. Mainly describing the stuff in the HTML file-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title is the name of the tab or window-->
+    <title>Should change</title>
+    <!-- Tag below connects CSS to HTML-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- The body is where you render everything the user will see-->
+<body>
+    <!-- id attribue can only be attributed to only one place-->
+    <h1 class="names" id="me">Joseph Robinson</h1>
+    <h1 class="names">Katherine</h1>
+    <h1 class="names">Bruce</h1>
+    <h1 class="names">Atreus</h1>
+
+    <ul class="list" id="first-list">
+        <li class = "list-items" id="1">Something</li>
+        <li class = "list-items" id="2">Something else</li>
+        <li class = "list-items" id="3">Also something else</li>
+    </ul>
+            <div class="card">
+                <img src="https://static-cdn.jtvnw.net/ttv-boxart/517159_IGDB-272x380.jpg" />
+                <div class="card-header">
+                    <h2>#1 Favorite Fighting Game</h2>
+                </div>
+                <h3>Guilty Gear: Strive</h3>    
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDoK7AUHNF3cW0TgCXLPe9-B--O_1-Yt7RQ&usqp=CAU" />
+                <div class="card-header">
+                    <h2>#2 Favorite Fighting Game</h2>
+                </div>
+                <h3>Dragon Ball Z: FighterZ</h3>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR09ZI3C2Rv0-MEosZcaeST4x1lVRQgEs3rnw&usqp=CAU" />
+                <div class="card-header">
+                    <h2>#3 Favorite Fighting Game</h2>
+                </div>
+                <h3>King of Fighters: XV</h3>
+            </div>
+    <br>
+    <br>
+    <button onclick="">Yo!</button>
+    <div class="toast">
+        <div class="toast-header">
+            <strong class="me-auto">BEST FIGHTERS</strong>
+            <small>2 mins ago</small>
+            <button type="button" class="btn-close">&times;</button>
+        </div>
+        <div class="toast-body">
+            Yo, these are my top 3 fighting games in 2022. You do agree with this list, right?
+        </div>
+    </div>
+    <br>
+    <br>
+    <ul class="list-group">
+        <li class="list-group-item">This is one thing</li>
+        <li class="list-group-item">This is another thing</li>
+        <li class="list-group-item">This is the final thing</li>
+    </ul>
+    
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <h3>Success!</h3>
+        <p>Somehow this works. I'm still trying to figure out why though. Disregard my thoughts.</p>
+    </div>
+    <!-- Tag below connects JavaScript to HTML-->
+    <script src="./script.js"></script>
+</body>
+</html>
